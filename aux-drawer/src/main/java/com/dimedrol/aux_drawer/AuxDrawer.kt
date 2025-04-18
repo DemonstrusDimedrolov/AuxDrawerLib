@@ -48,6 +48,7 @@ fun AuxDrawer(
     cornerRadius: Dp = 0.dp,
     drawerElevation: Dp = 0.dp,
     drawerBackgroundColor: Color = MaterialTheme.colorScheme.surface,
+    mainContentBackgroundColor: Color = MaterialTheme.colorScheme.background,
     animationDurationMillis: Int = 110,
     animationEasing: Easing = LinearEasing,
     velocityThreshold: Float = 1000f,
@@ -190,7 +191,13 @@ fun AuxDrawer(
                     } else it
                 }
         ) {
-            mainContent(onMenuClickLambda, isDrawerOpen, closeDrawerLambda)
+            Box(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .background(mainContentBackgroundColor)
+            ) {
+                mainContent(onMenuClickLambda, isDrawerOpen, closeDrawerLambda)
+            }
         }
     }
 }
