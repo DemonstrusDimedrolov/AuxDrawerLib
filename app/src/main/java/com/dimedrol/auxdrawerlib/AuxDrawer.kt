@@ -1,4 +1,4 @@
-package com.dimedrol.aux_drawer
+package com.dimedrol.auxdrawerlib
 
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.Easing
