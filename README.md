@@ -1,6 +1,6 @@
-ЭТО МОЕ
+ЭТО МОЕ, НЕ ЮЗАТЬ НИКОМУ
 
-@SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
+```kotlin
 @Composable
 fun BasicDrawer() {
     AuxDrawer(
@@ -32,7 +32,9 @@ fun BasicDrawer() {
         }
     )
 }
+```
 
+```kotlin
 @Composable
 fun AnimatedDrawer() {
     AuxDrawer(
@@ -51,7 +53,9 @@ fun AnimatedDrawer() {
         }
     )
 }
+```
 
+```kotlin
 @Composable
 fun NoSwipeDrawer() {
     AuxDrawer(
@@ -69,7 +73,9 @@ fun NoSwipeDrawer() {
         }
     )
 }
+```
 
+```kotlin
 @Composable
 fun RoundedShadowDrawer() {
     AuxDrawer(
@@ -89,7 +95,9 @@ fun RoundedShadowDrawer() {
         }
     )
 }
+```
 
+```kotlin
 @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
 @Composable
 private fun TopBarContent(title: String, onMenuClick: () -> Unit) {
@@ -110,3 +118,4 @@ private fun TopBarContent(title: String, onMenuClick: () -> Unit) {
         }
     }
 }
+```
