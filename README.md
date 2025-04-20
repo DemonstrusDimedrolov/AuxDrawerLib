@@ -1,4 +1,11 @@
-ЭТО МОЕ, НЕ ЮЗАТЬ НИКОМУ
+<p align="center">
+  <a href="https://jitpack.io/#DemonstrusDimedrolov/AuxDrawerLib">
+    <img src="https://jitpack.io/v/DemonstrusDimedrolov/AuxDrawerLib.svg" alt="JitPack Badge" />
+  </a>
+</p>
+
+<p align="center"><strong>ЭТО МОЕ, НЕ ЮЗАТЬ НИКОМУ</strong></p>
+
 
 ```kotlin
 @Composable
